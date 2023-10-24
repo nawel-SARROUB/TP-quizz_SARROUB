@@ -1,0 +1,164 @@
+:root {
+  --primary-color: #0086D4;
+  --secondary-color: #FDBE14;
+}
+
+body {}
+
+.container {
+  width: 90%;
+  background-color: #0086D4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image {
+  margin-top: 30PX;
+  display: flex;
+  position: relative;
+  place-content: center;
+}
+
+.text {
+  color: aliceblue;
+  font-size: 40PX;
+  width: 80%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  margin-top: 30px;
+  text-align: center;
+
+}
+
+.expliq {
+  color: aliceblue;
+  font-size: 25PX;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 70%;
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+.chance {
+  color: #FDBE14;
+}
+
+.btn-commencer {
+  padding-left: 20PX;
+  padding-right: 20PX;
+  height: 60PX;
+  background-color: #FDBE14;
+  border: none;
+  margin-bottom: 10%;
+  border-radius: .7rem;
+  object-fit: contain;
+}
+
+.text-jouer {
+  font-weight: 600;
+  font-size: 25PX;
+  margin: auto;
+  PADDING: 14PX;
+
+}
+
+.container-quizz {
+  background-color: #0086D4;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.q {
+  background-color: WHITE;
+  border-top-left-radius: 1.25REM;
+  border-bottom-right-radius: 1.25REM;
+  width: 80%;
+  height: fit-content;
+  display: flex;
+  place-self: center;
+  MARGIN: 20PX;
+  padding: 30px;
+}
+
+.bloc-q {
+  margin-left: 5%;
+}
+
+
+.question {
+  font-weight: 600;
+  font-size: larger;
+}
+
+.intitule {
+  font-weight: bold;
+}
+
+.list-q {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  place-items: center;
+}
+
+.liste-rep {
+  display: flex;
+  flex-direction: row;
+  margin: 10PX;
+}
+
+label {
+  margin-left: 5px;
+}
+
+.box-rep {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.btn-valider {
+  padding-left: 20PX;
+  padding-right: 20PX;
+  height: 60PX;
+  background-color: #FDBE14;
+  border: none;
+  margin-bottom: 5%;
+  border-radius: 1.2rem;
+  width: fit-content;
+
+}
+
+.cercle-rep {
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  height: 300PX;
+    WIDTH: 300PX;
+    MARGIN: 2%;
+}
+
+.contenu {
+  display: flex;
+  flex-direction: column;
+  MARGIN: auto;
+  align-items: center;
+}
+
+.votre-score{
+  font-size: larger;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.phrase{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.score{
+  font-weight: bolder;
+}
